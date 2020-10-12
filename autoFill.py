@@ -54,10 +54,11 @@ def autoFill(id):
         global retryCount;
         retryCount+=1
         if(retryCount == 2):
-            print("write to error log")
+            print(id+" Write to error log")
+            retryCount = 0
             pass;
         else:
-            print("Loading took too much time!-Try again")
+            print(id+" Try again")
             autoFill(id)
 
 def readFile(): 
