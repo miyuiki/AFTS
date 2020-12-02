@@ -61,14 +61,15 @@ def autoFill(id):
             print(id+" Try again")
             autoFill(id)
 
-def readFile(): 
-    fileHandler = open("Id.txt", "r");
-    IdList = fileHandler.read().splitlines();
-    fileHandler.close();
-    return IdList;
+# def readFile(): 
+#     fileHandler = open("Id.txt", "r");
+#     IdList = fileHandler.read().splitlines();
+#     fileHandler.close();
+#     return IdList;
 
 if __name__ == "__main__":
-    IdList = readFile();
-    print(IdList)
-    for id in IdList:
-        autoFill(id);
+    # IdList = readFile();
+    # print(IdList)
+    # for id in IdList:
+    id = '112587'
+    autoFill(id)
