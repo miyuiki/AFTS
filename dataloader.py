@@ -5,7 +5,7 @@ from firebase_admin import db
 
 class DataLoader:
     def __init__(self):
-        cred = credentials.Certificate('./application/serviceAccount.json')
+        cred = credentials.Certificate('./serviceAccount.json')
 
         # Initialize the app with a service account, granting admin privileges
         firebase_admin.initialize_app(cred, {
