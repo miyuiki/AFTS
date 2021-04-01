@@ -4,6 +4,8 @@ COPY autoFill.py /app/
 COPY dataloader.py /app/
 COPY serviceAccount.json /app/
 RUN apk update
+RUN apk add build-base
+RUN apk add libffi-dev
 RUN apk add chromium chromium-chromedriver
 RUN pip install --upgrade pip
-RUN pip install selenium firebase_admin
+RUN pip install selenium

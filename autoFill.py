@@ -5,9 +5,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import random
-
 from dataloader import DataLoader
+import logging
+from datetime import datetime
 
+FORMAT = '%(asctime)s |%(levelname)s| %(message)s'
+logging.basicConfig(level=logging.DEBUG, format=FORMAT, filename='./log/' + datetime.now().strftime('AFTS_%Y%m%d.log'))
 retryCount = 0
 
 
@@ -59,18 +62,19 @@ def autoFill(id):
         compleredTxtPath = "(//span[@class='title-text'])"
         compleredTxt = WebDriverWait(chrome, 10, 1).until(
             EC.visibility_of_element_located((By.XPATH, compleredTxtPath))).text
-        print(compleredTxt+id+" degree :"+foreheadDegree)
+        logging.info('Success: User ' + id + ' be filled. filled degree : ' + foreheadDegree)
+        # print(id + " filled degree :" + foreheadDegree)
         chrome.quit()
     except TimeoutException:
         chrome.quit()
         global retryCount
         retryCount += 1
         if(retryCount == 2):
-            print(id+" Write to error log")
+            logging.error('Timeout:user ' + id + ' cannot be filled. Process end.')
             retryCount = 0
             pass
         else:
-            print(id+" Try again")
+            logging.warning('Timeout:user ' + id + ' cannot be filled. Retrying...')
             autoFill(id)
 
 # def readFile():
