@@ -8,13 +8,14 @@ import random
 from dataloader import DataLoader
 import logging
 from datetime import datetime
+from mysql import MySQL
 
 FORMAT = '%(asctime)s |%(levelname)s| %(message)s'
 logging.basicConfig(level=logging.DEBUG, format=FORMAT, filename='./log/' + datetime.now().strftime('AFTS_%Y%m%d.log'))
 retryCount = 0
 
 
-def autoFill(id):
+def autoFill(id, cursor):
     options = Options()
     options.add_argument("--no-sandbox")
     options.add_argument("--headless")
@@ -64,6 +65,8 @@ def autoFill(id):
             EC.visibility_of_element_located((By.XPATH, compleredTxtPath))).text
         logging.info('Success: User ' + id + ' be filled. filled degree : ' + foreheadDegree)
         # print(id + " filled degree :" + foreheadDegree)
+        sql = "UPDATE afts.OPERATION_HIST SET STATUS = 'DONE' WHERE (CONTEXT_ID = '{0}-{1}');".format(id, datetime.today().strftime("%y%m%d"))
+        cursor.execute(sql)
         chrome.quit()
     except TimeoutException:
         chrome.quit()
@@ -75,7 +78,7 @@ def autoFill(id):
             pass
         else:
             logging.warning('Timeout:user ' + id + ' cannot be filled. Retrying...')
-            autoFill(id)
+            autoFill(id, cursor)
 
 # def readFile():
 #     fileHandler = open("Id.txt", "r");
@@ -87,6 +90,12 @@ def autoFill(id):
 if __name__ == "__main__":
     dt = DataLoader()
     users = dt.get_users()
+    dt.update_load_status(users)
     print(users)
-    for user in users:
-        autoFill(user)
+    db = MySQL()
+    con = db.connect()
+    with con:
+        with con.cursor() as cursor:
+            for user in users:
+                autoFill(user, cursor)
+        con.commit()

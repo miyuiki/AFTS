@@ -1,0 +1,267 @@
+2021-04-30 14:56:14,847 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 14:56:14,967 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 14:56:14,967 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 14:56:15,094 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 14:56:15,110 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 14:56:15,716 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 14:56:15,716 |INFO| user 112587 is loaded.
+2021-04-30 14:56:15,716 |INFO| user 112590 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 111423 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 112551 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 104471 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 112600 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 112732 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 112578 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 114989 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 113379 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 101330 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 111526 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 115239 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 092844 is loaded.
+2021-04-30 14:56:15,732 |INFO| user 112037 is loaded.
+2021-04-30 14:56:35,125 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 14:56:35,234 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 14:56:35,234 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 14:56:35,310 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 14:56:35,310 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 14:56:35,912 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 14:56:35,912 |INFO| user 112587 is loaded.
+2021-04-30 14:56:35,912 |INFO| user 112590 is loaded.
+2021-04-30 14:56:35,912 |INFO| user 111423 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 112551 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 104471 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 112600 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 112732 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 112578 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 114989 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 113379 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 101330 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 111526 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 115239 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 092844 is loaded.
+2021-04-30 14:56:35,928 |INFO| user 112037 is loaded.
+2021-04-30 14:57:42,292 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 14:57:42,398 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 14:57:42,415 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 14:57:42,493 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 14:57:42,509 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 14:57:43,109 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 14:57:43,116 |INFO| user 112587 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 112590 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 111423 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 112551 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 104471 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 112600 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 112732 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 112578 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 114989 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 113379 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 101330 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 111526 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 115239 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 092844 is loaded.
+2021-04-30 14:57:43,116 |INFO| user 112037 is loaded.
+2021-04-30 15:00:36,070 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:00:36,176 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:00:36,176 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:00:36,261 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:00:36,261 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:00:37,106 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:00:37,107 |INFO| user 112587 is loaded.
+2021-04-30 15:00:37,107 |INFO| user 112590 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 111423 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 112551 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 104471 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 112600 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 112732 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 112578 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 114989 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 113379 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 101330 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 111526 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 115239 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 092844 is loaded.
+2021-04-30 15:00:37,108 |INFO| user 112037 is loaded.
+2021-04-30 15:03:56,850 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:03:56,956 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:03:56,972 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:03:57,057 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:03:57,057 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:03:57,718 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:03:57,722 |INFO| user 112587 is loaded.
+2021-04-30 15:03:57,723 |INFO| user 112590 is loaded.
+2021-04-30 15:03:57,723 |INFO| user 111423 is loaded.
+2021-04-30 15:03:57,723 |INFO| user 112551 is loaded.
+2021-04-30 15:03:57,724 |INFO| user 104471 is loaded.
+2021-04-30 15:03:57,724 |INFO| user 112600 is loaded.
+2021-04-30 15:03:57,724 |INFO| user 112732 is loaded.
+2021-04-30 15:03:57,725 |INFO| user 112578 is loaded.
+2021-04-30 15:03:57,725 |INFO| user 114989 is loaded.
+2021-04-30 15:03:57,725 |INFO| user 113379 is loaded.
+2021-04-30 15:03:57,725 |INFO| user 101330 is loaded.
+2021-04-30 15:03:57,726 |INFO| user 111526 is loaded.
+2021-04-30 15:03:57,726 |INFO| user 115239 is loaded.
+2021-04-30 15:03:57,726 |INFO| user 092844 is loaded.
+2021-04-30 15:03:57,726 |INFO| user 112037 is loaded.
+2021-04-30 15:04:26,342 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:04:26,457 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:04:26,457 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:04:26,547 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:04:26,547 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:04:27,143 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:04:27,143 |INFO| user 112587 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 112590 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 111423 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 112551 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 104471 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 112600 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 112732 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 112578 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 114989 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 113379 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 101330 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 111526 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 115239 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 092844 is loaded.
+2021-04-30 15:04:27,143 |INFO| user 112037 is loaded.
+2021-04-30 15:10:21,591 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:10:21,694 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:10:21,694 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:10:21,799 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:10:21,799 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:10:22,987 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:10:22,987 |INFO| user 112587 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 112590 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 111423 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 112551 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 104471 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 112600 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 112732 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 112578 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 114989 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 113379 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 101330 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 111526 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 115239 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 092844 is loaded.
+2021-04-30 15:10:22,987 |INFO| user 112037 is loaded.
+2021-04-30 15:11:34,372 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:11:34,476 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:11:34,476 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:11:34,569 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:11:34,584 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:11:35,355 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:11:35,355 |INFO| user 112587 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 112590 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 111423 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 112551 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 104471 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 112600 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 112732 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 112578 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 114989 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 113379 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 101330 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 111526 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 115239 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 092844 is loaded.
+2021-04-30 15:11:35,355 |INFO| user 112037 is loaded.
+2021-04-30 15:13:05,632 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:13:05,753 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:13:05,756 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:13:05,833 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:13:05,835 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:13:06,650 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:13:06,650 |INFO| user 112587 is loaded.
+2021-04-30 15:13:06,650 |INFO| user 112590 is loaded.
+2021-04-30 15:13:06,650 |INFO| user 111423 is loaded.
+2021-04-30 15:13:06,650 |INFO| user 112551 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 104471 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 112600 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 112732 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 112578 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 114989 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 113379 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 101330 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 111526 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 115239 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 092844 is loaded.
+2021-04-30 15:13:06,665 |INFO| user 112037 is loaded.
+2021-04-30 15:14:21,688 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:14:21,788 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:14:21,788 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:14:21,873 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:14:21,873 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:14:22,474 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:14:22,474 |INFO| user 112587 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 112590 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 111423 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 112551 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 104471 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 112600 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 112732 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 112578 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 114989 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 113379 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 101330 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 111526 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 115239 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 092844 is loaded.
+2021-04-30 15:14:22,474 |INFO| user 112037 is loaded.
+2021-04-30 15:15:10,004 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 15:15:10,121 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 15:15:10,124 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 15:15:10,204 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 15:15:10,219 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 15:15:11,886 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 15:15:11,902 |INFO| user 112587 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 112590 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 111423 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 112551 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 104471 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 112600 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 112732 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 112578 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 114989 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 113379 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 101330 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 111526 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 115239 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 092844 is loaded.
+2021-04-30 15:15:11,902 |INFO| user 112037 is loaded.
+2021-04-30 17:42:56,215 |DEBUG| Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2021-04-30 17:42:56,326 |DEBUG| Making request: POST https://oauth2.googleapis.com/token
+2021-04-30 17:42:56,330 |DEBUG| Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-04-30 17:42:56,428 |DEBUG| https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-04-30 17:42:56,435 |DEBUG| Starting new HTTPS connection (1): autoapply-ee19b.firebaseio.com:443
+2021-04-30 17:42:57,109 |DEBUG| https://autoapply-ee19b.firebaseio.com:443 "GET /.json HTTP/1.1" 200 1341
+2021-04-30 17:42:57,111 |INFO| user 112587 is loaded.
+2021-04-30 17:42:57,111 |INFO| user 112590 is loaded.
+2021-04-30 17:42:57,112 |INFO| user 111423 is loaded.
+2021-04-30 17:42:57,112 |INFO| user 112551 is loaded.
+2021-04-30 17:42:57,112 |INFO| user 104471 is loaded.
+2021-04-30 17:42:57,112 |INFO| user 112600 is loaded.
+2021-04-30 17:42:57,113 |INFO| user 112732 is loaded.
+2021-04-30 17:42:57,113 |INFO| user 112578 is loaded.
+2021-04-30 17:42:57,113 |INFO| user 114989 is loaded.
+2021-04-30 17:42:57,113 |INFO| user 113379 is loaded.
+2021-04-30 17:42:57,114 |INFO| user 101330 is loaded.
+2021-04-30 17:42:57,114 |INFO| user 111526 is loaded.
+2021-04-30 17:42:57,114 |INFO| user 115239 is loaded.
+2021-04-30 17:42:57,114 |INFO| user 092844 is loaded.
+2021-04-30 17:42:57,115 |INFO| user 112037 is loaded.
+2021-04-30 17:42:57,319 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('112587-210430', '112587', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,345 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('112590-210430', '112590', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,373 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('111423-210430', '111423', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,399 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('112551-210430', '112551', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,425 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('104471-210430', '104471', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,451 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('112600-210430', '112600', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,476 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('112732-210430', '112732', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,502 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('112578-210430', '112578', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,528 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('114989-210430', '114989', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,553 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('113379-210430', '113379', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,579 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('101330-210430', '101330', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,605 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('111526-210430', '111526', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,631 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('115239-210430', '115239', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,657 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('092844-210430', '092844', '2021-04-30 17:42:57','LOADED');
+2021-04-30 17:42:57,683 |INFO| Excute SQL: INSERT INTO afts.OPERATION_HIST (context_id, emp_id, update_time, status) VALUES ('112037-210430', '112037', '2021-04-30 17:42:57','LOADED');
